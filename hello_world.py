@@ -37,14 +37,34 @@
 # # print(days.get(day,"Enter number from 1 to 5."))
 
 import time
-number = [1, 3, 7, 2, 4, 90, 87, 6, 54, 22, 23, 24, 25]
+# number = [1, 3, 7, 2, 4, 90, 87, 6, 54, 22, 23, 24, 25]
 
-for num in range(len(number)):
-    if number[num] % 2 == 0:
-        time.sleep(0.5)
-        print("even -->", num, number[num])
+# for num in range(len(number)):
+#     if number[num] % 2 == 0:
+#         time.sleep(0.5)
+#         print("even -->", num, number[num])
 
-for num in range(len(number)):
-    if number[num] % 2 != 0:
-        time.sleep(0.5)
-        print("odd -->", num, number[num])
+# for num in range(len(number)):
+#     if number[num] % 2 != 0:
+#         time.sleep(0.5)
+#         print("odd -->", num, number[num])
+
+# while True:
+#     command = input("enter a command: ")
+#     if command == "e":
+#         break
+# c = 0
+# while c != 100:
+#     c += 1
+#     print(c)
+#     if c == 100:
+#         break
+
+even = 0
+
+while even != 1000:
+        even += 1
+        if even % 2 == 0:
+            print("Even -->", even)
+        pass
+    
