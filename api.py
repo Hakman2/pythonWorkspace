@@ -17,5 +17,12 @@ try:
 except requests.exceptions.RequestException:
         pprint.pprint(f"Could not connect to the weather service or please check your network/internet connecetion or check the name of the city, {city_name}")
 
-coord = weather_data['coord']['lon']['lat']
-print(coord)
+# print(f"""coord = {weather_data}['coord']\n
+# longitude = {weather_data}['log']
+# latitude = {weather_data}['lat']
+# """)
+
+lon = weather_data['coord']['lon']
+weather = weather_data['weather'][0]
+print(lon)
+print(weather)
