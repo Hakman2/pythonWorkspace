@@ -15,3 +15,11 @@ print(result_circle_circumference, "cm")
 print(result_rec_area, "cm^2" )
 print(result_rec_parimeter, "cm")
 
+
+# Examples
+print(is_palindrome("madam"))       # True
+print(is_palindrome("racecar"))     # True
+print(is_palindrome("hello"))       # False
+print(is_palindrome("Nurses run"))  # True
+
+
