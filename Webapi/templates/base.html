@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <h1>BI-TECH: &beta;</h1>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="content">{% block content %}{% endblock %}</div>
+  </body>
+</html>
